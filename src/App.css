@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../src/assets/images/MovieBackgorund.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.MuiPaginationItem-root {
+    color: white !important;
+}
+
+.css-1l5xwdx-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+    border: 2px solid white;
+}
+
+iframe {
+    width: 330px;
+    height: 300px;
+}
